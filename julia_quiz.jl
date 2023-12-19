@@ -12,6 +12,11 @@ function fetch_capital_cities()
     return capital_cities
 end
 
+function get_random_item(array)
+    random_index = rand(1:length(array))
+    return array[random_index]
+end
+
 
 capitals = fetch_capital_cities()
 
